@@ -16,22 +16,7 @@ public class Game
 	{
 	}
 	
-	/**
-     *  Creates a copy of the game
-     *
-     *  @param    another    The game to be copied
-     *
-     */
-    public Game(Game another) 
-	{
-		for (int i = 0; i < HEIGHT; i++)
-		{
-			for (int j = 0; j < WIDTH; j++)
-			{
-				this.board[i][j] = another.board[i][j];
-			}
-		}
-	}
+	
 	
     /**
      *  Decide if the move is legal
